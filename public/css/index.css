@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+html{
+  background: #eaecf2;
+  width: 100%;
+  height: 100%;
+  box-shadow: inset 0px 0px 20px 5px #5B5B5B;
+
+}
+
+.content{
+  text-align: center;
+}
+
+#enter{
+  top:50%;
+  position: absolute;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background:  #dcd4c8;
+  border: 0;
+  padding: 15px;
+  color: #000;
+  font-size: 0.8em;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+
+}
