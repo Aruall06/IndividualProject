@@ -8,11 +8,10 @@ html{
 
 }
 
-.content{
-  text-align: center;
-}
-
 #enter{
+  margin-left: 45%;
+  margin-right: 40%;
+  text-align: center;
   top:50%;
   position: absolute;
   font-family: "Roboto", sans-serif;

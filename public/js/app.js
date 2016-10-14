@@ -5,4 +5,6 @@ $(function() {
    console.log("clicked");
 });
 
+$( '#nav li:has(ul)' ).doubleTapToGo();
+
 })

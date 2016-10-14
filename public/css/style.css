@@ -1,5 +1,55 @@
-@import url('https://fonts.googleapis.com/css?family=Amita');
+.header{
+  text-align: center;
+  padding-bottom: 5em;
+}
+#logo{
+  overflow: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 45%;
+}
+#bar{
+  width: 35px;
+  height: 30px;
+}
 
-html{
-    font-family: 'Amita', cursive;
+.gallery{
+  margin-left: 50%;
+}
+
+############################### NAV BAR ########################
+#nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+    /* container */
+}
+#nav>a {
+    display: none;
+}
+
+#nav li {
+    position: relative;
+    padding-bottom: 1em;
+}
+/* first level */
+#nav>ul {
+    height: 3.75em;
+}
+#nav>ul>li {
+    height: 100%;
+    float: left;
+}
+/* second level */
+#nav li ul {
+    display: none;
+    position: absolute;
+}
+
+#insideNav{
+        border: 1px solid black;
+}
+#nav li:hover ul {
+    display: block;
 }
