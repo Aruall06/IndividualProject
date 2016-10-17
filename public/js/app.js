@@ -5,7 +5,9 @@ $(function() {
         console.log("clicked");
     });
 
-    $('#nav li:has(ul)').doubleTapToGo();
+    lightbox.option({
+      'resizeDuration': 500,
+      'wrapAround': true
+    })
 
-    
 })
