@@ -1,7 +1,5 @@
 var User = require('../models/user');
 
-
-
 function createUser(req, res) {
 	if (req.body.username == null || req.body.password == null) {
 		res.sendStatus(400);
@@ -15,7 +13,6 @@ function createUser(req, res) {
 			res.sendStatus(201);
 		});
 	}
-
 };
 
 function updateUser(req, res) {
