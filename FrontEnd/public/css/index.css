@@ -8,6 +8,10 @@ html, body{
   background-repeat:no-repeat;
   background-size:100% 100vh;
 }
+
+.message{
+  color: red;
+}
 #register-section{
   position: relative;
   z-index: 1;
@@ -20,7 +24,6 @@ html, body{
   padding-bottom: 2%;
   padding-right: 5%;
   text-align: center;
-  /*box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);*/
 }
 .navoptions{
   text-align: center;
@@ -41,7 +44,6 @@ html, body{
   padding-bottom: 2%;
   padding-right: 5%;
   text-align: center;
-  /*box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);*/
 }
 
 .form-container input {

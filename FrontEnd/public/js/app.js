@@ -9,11 +9,17 @@ $(function() {
     $('#login').click(function(e) {
     $loginform.show();
     $registerform.hide();
+      $('.message').html("");
+      $('.username').val("");
+      $('.password').val("");
     });
 
     $('#register').click(function(e) {
       $loginform.hide();
       $registerform.show();
+        $('.message').html("");
+        $('.username').val("");
+        $('.password').val("");
     });
 
     $('#login-button').click(function(e) {
@@ -68,8 +74,6 @@ function loginRequest(username, password) {
         localStorage.setItem('user', response.user);
         localStorage.setItem('username', response.username);
         window.location.href = '../pages/gallery.html';
-        // $('.userMessage').append('<h1>Welcome, ' + localStorage.getItem('username') + '</h1>');
-        console.log('Welcome, ' + localStorage.getItem('username'));
       },
       400: function(response) {
         $('.message').html("<p>A user does not exist with the given details</p>");
