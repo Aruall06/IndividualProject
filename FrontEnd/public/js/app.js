@@ -43,11 +43,15 @@ function registerRequest(username, password) {
     async: false,
     statusCode: {
       201: function(response) {
-        $('#message').append('<p>You have successfully registered. Now you can login</p>');
+        $('.message').append('<p>You have successfully registered. Now you can login</p>');
       },
     }
   });
 }
+
+$.get('../pages/gallery.html', function (data) {
+    $('.userMessage').append('<h1>Welcome, ' + localStorage.getItem('username') + '</h1>');
+});
 
 function loginRequest(username, password) {
   $.ajax({
@@ -63,13 +67,12 @@ function loginRequest(username, password) {
       200: function(response) {
         localStorage.setItem('user', response.user);
         localStorage.setItem('username', response.username);
-
-        $('#userMessage').append('<h1>Welcome, ' + localStorage.getItem('username') + '</h1>')
-        console.log("logged in");
-            window.location.href = '../pages/gallery.html';
+        window.location.href = '../pages/gallery.html';
+        // $('.userMessage').append('<h1>Welcome, ' + localStorage.getItem('username') + '</h1>');
+        console.log('Welcome, ' + localStorage.getItem('username'));
       },
       400: function(response) {
-        $('message').html("<p>A user does not exist with the given details</p>");
+        $('.message').html("<p>A user does not exist with the given details</p>");
         $('#username').val("");
         $('#password').val("");
         console.log("doesnt work");

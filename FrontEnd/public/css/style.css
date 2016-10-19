@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond');
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
 .header {
     text-align: center;
     padding-bottom: 5em;
@@ -18,6 +19,16 @@ a {
     text-decoration: none;
 }
 
+.userMessage{
+  text-align: right;
+  font-size: 1.2em;
+  margin-right: 1%;
+  font-family: 'Bungee Inline', cursive;
+}
+
+.logout{
+  text-decoration: underline;
+}
 
 /*########################## GALLERY #################*/
 
