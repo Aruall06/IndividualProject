@@ -26,6 +26,9 @@ a {
   margin-right: 1%;
   font-family: 'Bungee Inline', cursive;
 }
+.userMessage:hover{
+    color: #0084d2;
+}
 
 .logout{
   text-decoration: underline;
