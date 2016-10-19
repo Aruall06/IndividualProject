@@ -14,64 +14,8 @@
     height: 15%;
 }
 
-
-/*############################### NAV BAR ########################*/
-
-#bar {
-
-    width: 35px;
-    height: 30px;
-}
-#nav {
-    position: absolute;
-    top: 0;
-    left: 0;
-    /* container */
-    margin-top: 3em;
-    margin-left: 14em;
-}
-
-#nav>a {
-    display: none;
-}
-
 a {
     text-decoration: none;
-    color: black;
-    font-family: 'Cormorant Garamond', serif;
-}
-
-#nav li {
-    position: relative;
-    padding-bottom: 1em;
-}
-
-
-/* first level */
-
-#nav>ul {
-    height: 3.75em;
-}
-
-#nav>ul>li {
-    height: 100%;
-    float: left;
-}
-
-
-/* second level */
-
-#nav li ul {
-    display: none;
-    position: absolute;
-}
-
-#insideNav {
-    border: 1px solid black;
-}
-
-#nav li:hover ul {
-    display: block;
 }
 
 
