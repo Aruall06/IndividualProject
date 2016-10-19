@@ -12,7 +12,7 @@ html, body{
   position: relative;
   z-index: 1;
   background: #e7e8e6;
-  max-width: 30%;
+  width: 30%;
   margin-top: 2%;
   margin-left: 35%;
   padding-top: 2%;
@@ -22,7 +22,7 @@ html, body{
   text-align: center;
   /*box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);*/
 }
-.bla{
+.navoptions{
   text-align: center;
   display: inline-block;
   z-index: 1;
@@ -33,7 +33,7 @@ html, body{
   position: relative;
   z-index: 1;
   background: #e7e8e6;
-  max-width: 30%;
+  width: 30%;
   margin-top: 2%;
   margin-left: 35%;
   padding-top: 2%;

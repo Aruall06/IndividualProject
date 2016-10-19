@@ -23,7 +23,7 @@ a {
 
 .gallery {
     margin-left: 15%;
-    display: inline-block;
+    display: grid | inline-grid;
     box-sizing: border-box;
 }
 
